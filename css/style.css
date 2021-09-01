@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+:root{
+    --background-dark: #2d3548;
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+  }
+  
+
+  .declaracao_final {
+
+    text-align: justify;
+    margin-top: 60px;
+  }
+
+  .declaracao_final h2{
+
+    font-size: 60px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-style: normal;
+    padding: 70px;
+
+
+  }  
+
+  .declaracao_final p {
+
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 25px;
+    padding: 70px;
+
+  }
+  *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+
+    background-color: whitesmoke;
+  }
+
+  .header h1{
+
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 100px;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0 0 2px;
+  color: black;
+  text-shadow: 1px 0px 10px rgb(255, 252, 252); 
+  background-color: black;
+  }
+
+  .header h4 {
+
+    font-size: 30px;
+    font-weight: inherit;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    padding: 50px;
+    background-color: black;
+    font-family: 'Comfortaa', cursive;
+
+    
+
+  }
+
+  .header p {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px rgb(250, 246, 246);
+    background-color: black;
+    padding: 25px;
+    font-size: 12px;
+    
+    
+
+  }
+  
+  html{
+    height: 100%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px;
+  }
+  
+  body{
+    height: 100%;
+  }
+  
+  .hero-section{
+    align-items: flex-start;
+    background: rgb(250,250,250);
+    background: rgb(255,255,255);
+    background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 1%, rgba(0,0,0,1) 100%);
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    padding: var(--spacing-xxl) var(--spacing-l);
+  }
+  
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: var(--spacing-l);
+    grid-row-gap: var(--spacing-l);
+    max-width: var(--width-container);
+    width: 100%;
+  }
+  
+  @media(min-width: 540px){
+    .card-grid{
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media(min-width: 960px){
+    .card-grid{
+      grid-template-columns: repeat(4, 1fr); 
+    }
+  }
+  
+  .card{
+    list-style: none;
+    position: relative;
+  }
+  
+  .card:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+  }
+  
+  .card__background{
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    filter: brightness(0.75) saturate(1.2) contrast(0.85);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition:
+      filter 200ms linear,
+      transform 200ms linear;
+  }
+  
+  .card:hover .card__background{
+    transform: scale(1.05) translateZ(0);
+  }
+  
+  .card-grid:hover > .card:not(:hover) .card__background{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+  }
+  
+  .card__content{
+    left: 0;
+    padding: var(--spacing-l);
+    position: absolute;
+    top: 0;
+  }
+  
+  .card__category{
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-s);
+    text-transform: uppercase;
+  }
+  
+  .card__heading{
+    color: var(--text-lighter);
+    font-size: 1.9rem;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.4;
+    
+  }
+
+  .footer {
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-shadow: 0 0 3px white;
+    font-size: 15px;
+
+
+  }
+
+  
