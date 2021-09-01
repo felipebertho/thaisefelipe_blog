@@ -1,15 +1,10 @@
-<<<<<<< HEAD
-Projeto photoblog Thais e Felipe.
+<b> Photoblog </b>
 
-Criei esse blog para deixar guardado nossas fotos e lembranças durante nossa história.
+Criado para armazenar nossas memórias ao longo dessa jornada...
 
-01.09.2021
+Um presente criado em homenagem ao nosso primeiro mês oficiaolmente juntos.
 
-alteração para teste de commit
-=======
-Projeto photoblog Thais e Felipe.
 
-Criei esse blog para deixar guardado nossas fotos e lembranças durante nossa história.
+Espero que sirva de inspiração pra outras pessoas.
 
-01.09.2021
->>>>>>> b896a88f8b295481145b4b8c3fc30d27b8ad6dd6
+<i>Criado por Felipe Bertho, com todo amor para Thai Khater.</i>
