@@ -17,6 +17,15 @@
     --width-container: 1200px;
   }
   
+  .update-rodape {
+
+    padding-bottom: 100px;
+    margin-left: 70px;
+    text-align: left;
+    color:black;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+  }
 
   .declaracao_final {
 
