@@ -2,7 +2,7 @@
 
 Criado para armazenar nossas memórias ao longo dessa jornada...
 
-Um presente criado em homenagem ao nosso primeiro mês oficiaolmente juntos.
+Um presente criado em homenagem ao nosso primeiro mês oficialmente juntos.
 
 
 Espero que sirva de inspiração pra outras pessoas.
