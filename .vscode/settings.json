@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+    
+        "activityBar.background": "#10341A",
+        "titleBar.activeBackground": "#0d0e0d",
+        "titleBar.activeForeground": "#F5FCF7"
+    },
+    "workbench.preferredLightColorTheme": "FlatUI",
+    "workbench.colorTheme": "One Dark Pro Darker"
+}
